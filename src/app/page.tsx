@@ -1,5 +1,6 @@
 "use client";
 import { Contacts } from "@/components/contacts";
+import { Footer } from "@/components/footer";
 import { Home } from "@/components/home";
 import { Projects } from "@/components/projects";
 
@@ -9,6 +10,7 @@ export default function App() {
       <Home />
       <Projects />
       <Contacts />
+      <Footer />
     </main>
   );
 }

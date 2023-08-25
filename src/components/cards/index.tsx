@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Icon } from "../icons";
 import { FaGithub } from "react-icons/fa";
 import { IoIosShareAlt } from "react-icons/io";
 

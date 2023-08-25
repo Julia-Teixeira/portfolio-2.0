@@ -1,7 +1,6 @@
 "use client ";
 import { useQuery } from "react-query";
 import { getProjects } from "@/services/api";
-import { Button } from "../buttons";
 import { FaGithub, FaShare } from "react-icons/fa";
 import Link from "next/link";
 
