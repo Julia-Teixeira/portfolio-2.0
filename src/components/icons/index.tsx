@@ -16,7 +16,7 @@ export const icon = tv({
     },
     size: {
       rounded: "rounded-full",
-      square: "w-[4.5rem] h-[4.5rem] rounded-lg",
+      square: "w-[5.5rem] h-[5.5rem] rounded-lg",
     },
   },
 });
