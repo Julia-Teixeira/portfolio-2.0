@@ -21,6 +21,7 @@ export const icon = tv({
     hover: {
       white: "hover:bg-white",
       transparent: "hover:bg-transparent",
+      none: "",
     },
   },
 });
@@ -37,7 +38,7 @@ interface IconProps {
     | "whatsapp"
     | "email";
   size?: "rounded" | "square";
-  hover?: "white" | "transparent";
+  hover?: "white" | "transparent" | "none";
 }
 
 export const Icon = ({

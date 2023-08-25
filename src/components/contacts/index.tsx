@@ -21,7 +21,7 @@ export const Contacts = (): JSX.Element => {
       <section className="w-1/2 flex flex-col gap-16">
         <article className="flex gap-7">
           <section className="h-[72px] w-[72px]">
-            <Icon color="whatsapp" size="square">
+            <Icon color="whatsapp" size="square" hover="none">
               <FaWhatsapp size={24} />
             </Icon>
           </section>
@@ -39,7 +39,7 @@ export const Contacts = (): JSX.Element => {
             </Link>
           </section>
         </article>
-        <article className="flex gap-7">
+        {/* <article className="flex gap-7">
           <section className="h-[72px] w-[72px]">
             <Icon color="email" size="square">
               <FaMailBulk size={24} />
@@ -61,7 +61,7 @@ export const Contacts = (): JSX.Element => {
               Enviar email
             </Link>
           </section>
-        </article>
+        </article> */}
         <article className="flex gap-7">
           <section className="h-[72px] w-[72px]">
             <Icon color="linkedinSquare" size="square">
