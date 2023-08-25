@@ -64,7 +64,7 @@ export const Contacts = (): JSX.Element => {
         </article> */}
         <article className="flex gap-7">
           <section className="h-[72px] w-[72px]">
-            <Icon color="linkedinSquare" size="square">
+            <Icon color="linkedinSquare" size="square" hover="none">
               <FaLinkedin size={24} />
             </Icon>
           </section>
